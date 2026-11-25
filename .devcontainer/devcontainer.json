@@ -1,5 +1,5 @@
 {
-	"name": "ESP-IDF",
+	"name": "ESP-IDF QEMU",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -11,9 +11,7 @@
 			},
 			"extensions": [
 				"espressif.esp-idf-extension",
-				"espressif.esp-idf-web",
-				"ms-vscode.cpptools",
-				"ms-vscode-remote.remote-containers"
+				"espressif.esp-idf-web"
 			]
 		}
 	},
