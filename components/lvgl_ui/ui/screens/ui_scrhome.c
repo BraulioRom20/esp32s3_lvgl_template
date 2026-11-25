@@ -43,7 +43,7 @@ void ui_scrhome_screen_init(void)
     lv_obj_set_x(ui_Label5, 0);
     lv_obj_set_y(ui_Label5, 21);
     lv_obj_set_align(ui_Label5, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_Label5, "Temp: 00°C");
+    lv_label_set_text(ui_Label5, "Temp: --.-°C");
 
     ui_Label6 = lv_label_create(ui_scrhome);
     lv_obj_set_width(ui_Label6, LV_SIZE_CONTENT);   /// 1
@@ -51,7 +51,7 @@ void ui_scrhome_screen_init(void)
     lv_obj_set_x(ui_Label6, 0);
     lv_obj_set_y(ui_Label6, 42);
     lv_obj_set_align(ui_Label6, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_Label6, "HH:MM:SS");
+    lv_label_set_text(ui_Label6, "00:00:00");
 
 }
 
